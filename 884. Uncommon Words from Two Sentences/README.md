@@ -31,6 +31,9 @@ Output: ["banana"]
 #### Constraints:
 
 1 <= s1.length, s2.length <= 200
+
 s1 and s2 consist of lowercase English letters and spaces.
+
 s1 and s2 do not have leading or trailing spaces.
+
 All the words in s1 and s2 are separated by a single space.
