@@ -8,16 +8,15 @@ Design your implementation of the circular double-ended queue (deque).
 
 Implement the MyCircularDeque class:
 
-MyCircularDeque(int k) Initializes the deque with a maximum size of k.
-boolean insertFront() Adds an item at the front of Deque. Returns true if the operation is successful, or false otherwise.
-boolean insertLast() Adds an item at the rear of Deque. Returns true if the operation is successful, or false otherwise.
-boolean deleteFront() Deletes an item from the front of Deque. Returns true if the operation is successful, or false otherwise.
-boolean deleteLast() Deletes an item from the rear of Deque. Returns true if the operation is successful, or false otherwise.
-int getFront() Returns the front item from the Deque. Returns -1 if the deque is empty.
-int getRear() Returns the last item from Deque. Returns -1 if the deque is empty.
-boolean isEmpty() Returns true if the deque is empty, or false otherwise.
-boolean isFull() Returns true if the deque is full, or false otherwise.
- 
+MyCircularDeque(int k) Initializes the deque with a maximum size of k.<br>
+boolean insertFront() Adds an item at the front of Deque. Returns true if the operation is successful, or false otherwise.<br>
+boolean insertLast() Adds an item at the rear of Deque. Returns true if the operation is successful, or false otherwise.<br>
+boolean deleteFront() Deletes an item from the front of Deque. Returns true if the operation is successful, or false otherwise.<br>
+boolean deleteLast() Deletes an item from the rear of Deque. Returns true if the operation is successful, or false otherwise.<br>
+int getFront() Returns the front item from the Deque. Returns -1 if the deque is empty.<br>
+int getRear() Returns the last item from Deque. Returns -1 if the deque is empty.<br>
+boolean isEmpty() Returns true if the deque is empty, or false otherwise.<br>
+boolean isFull() Returns true if the deque is full, or false otherwise.<br>
 
 #### Example 1:
 
@@ -34,13 +33,13 @@ Output:
 
 #### Explanation:
 
-MyCircularDeque myCircularDeque = new MyCircularDeque(3);
-myCircularDeque.insertLast(1);  // return True
-myCircularDeque.insertLast(2);  // return True
-myCircularDeque.insertFront(3); // return True
-myCircularDeque.insertFront(4); // return False, the queue is full.
-myCircularDeque.getRear();      // return 2
-myCircularDeque.isFull();       // return True
-myCircularDeque.deleteLast();   // return True
-myCircularDeque.insertFront(4); // return True
-myCircularDeque.getFront();     // return 4
+MyCircularDeque myCircularDeque = new MyCircularDeque(3);<br>
+myCircularDeque.insertLast(1);  // return True<br>
+myCircularDeque.insertLast(2);  // return True<br>
+myCircularDeque.insertFront(3); // return True<br>
+myCircularDeque.insertFront(4); // return False, the queue is full.<br>
+myCircularDeque.getRear();      // return 2<br>
+myCircularDeque.isFull();       // return True<br>
+myCircularDeque.deleteLast();   // return True<br>
+myCircularDeque.insertFront(4); // return True<br>
+myCircularDeque.getFront();     // return 4<br>
